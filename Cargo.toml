@@ -1,0 +1,21 @@
+[package]
+name = "wssshserver"
+version = "0.1.0"
+authors = ["Jason NI (nixin) <jason.ni.py@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0"
+bytes = "0.6.0"
+futures = "0.3"
+futures-util = "0.3.8"
+log = "0.4"
+env_logger = "0.7"
+pretty-hex = "0.2.1"
+thrussh-keys = "0.19.2"
+thrussh = { path = "../thrussh-mod"}
+tokio = { version = "0.3", features = ["full"]}
+tokio-tungstenite = "0.12.0"
+tungstenite = "0.11.1"
