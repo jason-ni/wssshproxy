@@ -15,7 +15,7 @@ log = "0.4"
 env_logger = "0.7"
 pretty-hex = "0.2.1"
 thrussh-keys = "0.19.2"
-thrussh = { path = "../thrussh-mod"}
+thrussh = { git = "https://github.com/jason-ni/thrussh-mod.git", branch = "develop" }
 tokio = { version = "0.3", features = ["full"]}
 tokio-tungstenite = "0.12.0"
 tungstenite = "0.11.1"
